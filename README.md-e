@@ -21,7 +21,7 @@ So to run the cart service we choose to run as a normal user and that user name 
 So let's switch to the `roboshop` user and run the following commands.
 
 ```
-$ curl -s -L -o /tmp/cart.zip "https://github.com/zelar-soft-roboshop/cart/archive/main.zip"
+$ curl -s -L -o /tmp/cart.zip "https://github.com/roboshop-devops-project/cart/archive/main.zip"
 $ cd /home/roboshop
 $ unzip /tmp/cart.zip
 $ mv cart-main cart
