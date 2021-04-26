@@ -1,3 +1,5 @@
+@Library('roboshop') _
+
 pipeline {
   agent {
     label 'NODEJS'
@@ -23,9 +25,9 @@ pipeline {
 
     stage('Upload Artifacts') {
       steps {
-        sh '''
-          curl -f -v -u admin:admin123 --upload-file cart.zip http://172.31.14.124:8081/repository/cart/cart.zip
-        '''
+       script {
+         nexus
+       }
       }
     }
 
