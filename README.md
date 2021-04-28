@@ -42,4 +42,5 @@ Now, lets set up the service with systemctl.
 # systemctl enable cart
 ```
 
+:)
 # RELEASE 0.0.1 - DATE - 28-04-2021
