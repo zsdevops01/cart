@@ -47,3 +47,4 @@ Now, lets set up the service with systemctl.
 # RELEASE 0.0.7 - DATE - 28-04-2021
 # RELEASE 0.0.8 - DATE - 28-04-2021
 # RELEASE 0.0.12 - DATE - 28-04-2021
+# RELEASE 0.0.15 - DATE - 28-04-2021
