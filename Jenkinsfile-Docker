@@ -1,0 +1,7 @@
+@Library('roboshop') _
+
+docker (
+        COMPONENT             : 'cart',
+        PROJECT_NAME          : "RoboShop",
+        SLAVE_LABEL           : "DOCKER"
+)
