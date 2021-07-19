@@ -14,7 +14,7 @@ pipeline {
         stage('Deploy to DEV Env') {
             steps {
                 sh '''
-                    helm upgrade -i frontend helm/. --set image.tag=${VERSION}
+                    helm upgrade -i cart helm/. --set image.tag=${VERSION}
                 '''
             }
         }
