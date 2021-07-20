@@ -24,7 +24,7 @@ So let's switch to the `roboshop` user and run the following commands.
 ```
 $ curl -s -L -o /tmp/cart.zip "https://github.com/zelar-soft-roboshop/cart/archive/main.zip"
 $ cd /home/roboshop
-$ unzip /tmp/cart.zip
+$ unzip /tmp/cart.zipdis
 $ mv cart-main cart
 $ cd /home/roboshop/cart
 $ npm install 
