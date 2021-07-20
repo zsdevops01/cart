@@ -39,6 +39,7 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 80
+  containerPort: 8080
 
 ingress:
   enabled: false
@@ -80,3 +81,8 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+configmap:
+  REDIS_HOST: redis-master
+  CATALOGUE_HOST: catalogue
+  CATALOGUE_PORT: "80"
